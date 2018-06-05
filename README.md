@@ -33,6 +33,9 @@ How to
 a(DatePickerHelper::convertFromDatePickerToPhpDate("dd/mm/yy")); // prints d/m/Y
 a(DatePickerHelper::convertFromPhpDateToDatePicker("Y-m-d")); // prints yy-mm-dd
 
+
+$birthdayDate = "09/12/1944";
+a(DatePickerHelper::convertFromNumericInputToMysqlDate($birthdayDate, "d/m/Y")); // 1944-12-09
 ```
 
 
@@ -43,6 +46,10 @@ a(DatePickerHelper::convertFromPhpDateToDatePicker("Y-m-d")); // prints yy-mm-dd
 History Log
 ------------------
     
+- 1.1.0 -- 2018-06-05
+
+    - add convertFromNumericInputToMysqlDate method
+
 - 1.0.0 -- 2018-06-05
 
     - initial commit
