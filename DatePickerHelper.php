@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DatePickerHelper;
+namespace Ling\DatePickerHelper;
 
 /**
  *
